@@ -167,7 +167,7 @@ if not shutil.which('cmake'):
     setup_requires.append('cmake')
 
 setuptools.setup(
-    name='OpenCC',
+    name='OpenCC-XXXXRT',
     version=version_info,
     author=author_info[0],
     author_email=author_info[1],
